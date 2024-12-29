@@ -1,0 +1,19 @@
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+    color: #333; 
+  }
+  
+  #quote { 
+    font-size: 1.5em; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    max-width: 800px; 
+    width: 90%; 
+  }
+  
