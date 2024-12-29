@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Motivational Quotes",
+    "version": "0.1.0",
+    "description": "Displays a random motivational quote daily.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/motivation16.png",
+        "32": "icons/motivation32.png",
+        "128": "icons/motivation128.png"
+      }
+    },
+    "permissions": [
+      "storage",
+      "tabs",
+      "alarms"
+    ]
+  }
+  
